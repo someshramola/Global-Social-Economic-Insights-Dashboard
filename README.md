@@ -1,42 +1,88 @@
 # Global-Social-Economic-Insights-Dashboard
-
 🌍 Global Social & Economic Insights Dashboard
-📊 Project Overview
+📌 Project Overview
 
-This Power BI dashboard analyzes the relationship between:
+This project is an interactive Power BI dashboard designed to analyze the relationship between economic and social indicators across multiple countries and regions.
 
-GDP per capita
+The objective of this analysis is to understand how factors like GDP, poverty, education, health, and corruption influence overall happiness and development.
 
-Poverty rate
+🎯 Business Objective
 
-Education index
+The main goal of this project is to:
+Identify which region is happiest
+Understand the impact of poverty on well-being
+Analyze the correlation between GDP and happiness
+Evaluate how education and health contribute to development
+Provide data-driven insights for socio-economic improvement
+This type of analysis can help governments, policymakers, and organizations make better strategic decisions.
 
-Health index
+📊 Key KPIs Used
 
-Happiness index
+Total Population
+GDP Per Capita
+Happiness Index
+Poverty Rate
+Employment Rate
+Education Index
+Health Index
+Corruption Index
 
-🔎 Key Insights
+📈 Key Insights
+🌍 Happiest Region
 
-Europe is the happiest region.
+Europe appears to be the happiest region based on overall happiness scores and supporting economic indicators.
 
-GDP and Happiness show a positive correlation.
+📉 Poverty vs Happiness
 
-Poverty negatively impacts happiness.
+There is a negative relationship between poverty and happiness.
+Countries with higher poverty levels generally show lower happiness scores.
 
-Education strongly supports development and well-being.
+📈 GDP vs Happiness
 
-🛠 Tools Used
+GDP per capita shows a positive correlation with happiness.
+Higher economic strength is associated with improved well-being.
 
-Power BI
-Power Query (Data Cleaning)
-DAX
+🎓 Education & Development
 
+Education has a strong positive relationship with happiness and development.
+Countries with higher education index values tend to perform better socially and economically.
 
-📁 Files Included
+🏥 Health & Happiness
 
-Power BI dashboard (.pbix)
+Better health index values are linked to higher happiness levels, indicating that healthcare access impacts quality of life.
 
-Dataset
+🛠 Tools & Technologies Used
+
+Power BI – Dashboard development and visualization
+Power Query – Data cleaning and transformation
+DAX (Data Analysis Expressions) – KPI measures and calculations
+Excel – Initial data preparation
+
+🧹 Data Preparation Steps
+
+Removed duplicate records
+Created dimension tables (Country, Region, Year)
+Built relationships using a star schema model
+Created calculated measures using DAX
+Standardized number formatting (K, M, Bn)
+
+📂 Repository Structure
+
+Social_Economic_project.xlsx → Dataset
+Social_economic_indicators_project.pbix → Power BI dashboard file
+
+🚀 Learning Outcome
+
+Through this project, I improved my skills in:
+Data modeling
+Building star schema relationships
+Writing DAX measures
+Creating interactive reports
+Deriving business insights from raw data
+
+🙏 Acknowledgment
+
+Special thanks to my teacher for guiding me throughout this project and helping me understand the practical application of data analytics concepts.
 
 Dashboard : <img width="1322" height="722" alt="Overview KPI" src="https://github.com/user-attachments/assets/7f46fa80-0e29-40fd-b8be-e90b101cf326" />
 <img width="1325" height="745" alt="Overview" src="https://github.com/user-attachments/assets/24af3e8c-8923-48d2-b346-e0b7bf118626" />
